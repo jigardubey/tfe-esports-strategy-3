@@ -1,0 +1,6 @@
+{
+  "name": "TFE ESPORTS STRATEGY",
+  "description": "Premium tactical map strategy analysis and tournament planning tool for professional esports teams.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

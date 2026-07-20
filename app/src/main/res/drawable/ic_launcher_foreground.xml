@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center group offset to keep inside safe zone -->
+    <group
+        android:translateX="18"
+        android:translateY="18">
+        <!-- Target / Crosshair Outer circle -->
+        <path
+            android:fillColor="#FF6B00"
+            android:pathData="M36,12 C22.7,12 12,22.7 12,36 C12,49.3 22.7,60 36,60 C49.3,60 60,49.3 60,36 C60,22.7 49.3,12 36,12 M36,54 C26.1,54 18,45.9 18,36 C18,26.1 26.1,18 36,18 C45.9,18 54,26.1 54,36 C54,45.9 45.9,54 36,54 Z" />
+        <!-- Target Center dot -->
+        <path
+            android:fillColor="#FFA726"
+            android:pathData="M36,30 C32.7,30 30,32.7 30,36 C30,39.3 32.7,42 36,42 C39.3,42 42,39.3 42,36 C42,32.7 39.3,30 36,30 Z" />
+        <!-- Crosshair ticks -->
+        <path
+            android:fillColor="#FF6B00"
+            android:pathData="M34,4 L38,4 L38,15 L34,15 Z" />
+        <path
+            android:fillColor="#FF6B00"
+            android:pathData="M34,57 L38,57 L38,68 L34,68 Z" />
+        <path
+            android:fillColor="#FF6B00"
+            android:pathData="M4,34 L4,38 L15,38 L15,34 Z" />
+        <path
+            android:fillColor="#FF6B00"
+            android:pathData="M57,34 L57,38 L68,38 L68,34 Z" />
+    </group>
+</vector>
